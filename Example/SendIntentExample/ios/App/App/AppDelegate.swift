@@ -1,4 +1,4 @@
-import SendIntent
+import MindlibCapacitorSendIntent
 import UIKit
 import Capacitor
 

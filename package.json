@@ -1,6 +1,6 @@
 {
   "name": "@mindlib-capacitor/send-intent",
-  "version": "8.0.2",
+  "version": "8.0.5",
   "publishConfig": {
     "access": "public"
   },
@@ -16,7 +16,7 @@
     "ios/Sources",
     "ios/Tests",
     "Package.swift",
-    "SendIntent.podspec"
+    "MindlibCapacitorSendIntent.podspec"
   ],
   "author": "Carsten Klaffke",
   "license": "MIT",

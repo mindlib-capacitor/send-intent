@@ -4,6 +4,10 @@ This is a Capacitor plugin meant to be used in Ionic applications for checking i
 
 Check out my app [mindlib - your personal mind library](https://play.google.com/store/apps/details?id=de.mindlib) to see it in action.
 
+## Migration to Capacitor 8 (new package name/scope)
+
+The plugin is now named `MindlibCapacitorSendIntent` (previously `SendIntent`). If you are migrating from an older version, update the iOS imports and use the new module name in `AppDelegate.swift`.
+
 ## Projects below Capacitor 3
 
 For projects below Capacitor 3 please use "send-intent": "1.1.7"!
@@ -318,7 +322,7 @@ To allow sharing of files between the extension and your main app, you need to [
 Finally, in your AppDelegate.swift, override the following function like this:
 
 ```swift
-import SendIntent
+import MindlibCapacitorSendIntent
 import Capacitor
 
 // ...
