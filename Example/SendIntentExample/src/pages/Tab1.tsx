@@ -1,7 +1,7 @@
 import {IonContent, IonHeader, IonPage, IonTitle, IonToolbar} from '@ionic/react';
 import ExploreContainer from '../components/ExploreContainer';
 import './Tab1.css';
-import {SendIntent} from "send-intent";
+import {SendIntent} from "@mindlib-capacitor/send-intent";
 import {Filesystem} from '@capacitor/filesystem';
 import {RouteComponentProps} from "react-router";
 import React, {useEffect, useState} from "react";

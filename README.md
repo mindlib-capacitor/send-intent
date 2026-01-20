@@ -6,7 +6,7 @@ Check out my app [mindlib - your personal mind library](https://play.google.com/
 
 ## Migration to Capacitor 8 (new package name/scope)
 
-The plugin is now named `MindlibCapacitorSendIntent` (previously `SendIntent`). If you are migrating from an older version, update the iOS imports and use the new module name in `AppDelegate.swift`.
+The plugin is now named `@mindlib-capacitor/send-intent`/`MindlibCapacitorSendIntent` (previously `SendIntent`). If you are migrating from an older version, update your JS/TS import to `@mindlib-capacitor/send-intent` (e.g. in your Android app code), and update the iOS imports to use the new module name in `AppDelegate.swift`.
 
 ## Projects below Capacitor 3
 
